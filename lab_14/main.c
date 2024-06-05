@@ -355,4 +355,5 @@ int main()
     trzeci.z = 0;
     struct punkt tab[3]={pierwszy, drugi, trzeci};
     printf("%f", minimum(tab, 3));
+    printf("%d\n\n", sizeof(struct punkt));
 }
