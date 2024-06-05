@@ -341,6 +341,11 @@ double minimum(struct punkt tab[], int n)
     return min;
 }
 
+struct zespolone
+{
+    double re, im;
+};
+
 int main()
 {
     struct punkt pierwszy, drugi, trzeci;
