@@ -1,7 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /*
+///odwracanie stringu
+void odwroc(char * tekst)
+{
+    for(int i=strlen(tekst)-1;i>=0;--i) printf("%c",tekst[i]);
+}
+
+int main()
+{
+    char *tekst="tekst do odwrocenia";
+    odwroc(tekst);
+    return 0;
+}
+
+
 struct student
 {
     char *imie, *nazwisko, *adres, *pesel, *kierunek;
